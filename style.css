@@ -14,4 +14,28 @@ header{
     background-color: blue;
 }
 
+section{
+    grid-area: section;
+    background-color: burlywood;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "div";
+
+    div{
+        grid-area: div;
+        background-color: rgb(212, 255, 0);
+    }
+
+}
+
+article{
+    grid-area: article;
+    background-color: brown;
+}
+
+footer{
+    grid-area: footer;
+    background-color: chocolate;
+}
