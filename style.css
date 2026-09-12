@@ -24,11 +24,26 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "div";
+    "div adress";
+
+
+    adress{
+        grid-area: adress;
+        background-color: coral;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     div{
         grid-area: div;
         background-color: rgb(212, 255, 0);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
