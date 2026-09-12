@@ -8,7 +8,7 @@ body{
     grid-template-areas: 
     "header section"
     "article footer";
-    gap:2rem;
+    
 
 header{
     grid-area: header;
